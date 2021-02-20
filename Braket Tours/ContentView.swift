@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+         VStack{
+            
+            Image("taj-mahal")
+            
+            Text("Taj Mahal")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+                
+            
+            Text("India")
+                .font(.title)
+                .foregroundColor(.secondary)
+        }
     }
 }
 
