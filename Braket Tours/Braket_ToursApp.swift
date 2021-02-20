@@ -11,7 +11,10 @@ import SwiftUI
 struct Braket_ToursApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+
+            }
         }
     }
 }
