@@ -13,6 +13,7 @@
 		F71EE83225E07E4600AF55E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71EE83125E07E4600AF55E0 /* Preview Assets.xcassets */; };
 		F71EE83C25E080FC00AF55E0 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = F71EE83A25E080FC00AF55E0 /* locations.json */; };
 		F71EE83D25E080FC00AF55E0 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = F71EE83B25E080FC00AF55E0 /* tips.json */; };
+		F71EE84025E0906200AF55E0 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EE83F25E0906200AF55E0 /* location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F71EE83325E07E4600AF55E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F71EE83A25E080FC00AF55E0 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		F71EE83B25E080FC00AF55E0 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		F71EE83F25E0906200AF55E0 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F71EE83B25E080FC00AF55E0 /* tips.json */,
 				F71EE83325E07E4600AF55E0 /* Info.plist */,
 				F71EE83025E07E4600AF55E0 /* Preview Content */,
+				F71EE83F25E0906200AF55E0 /* location.swift */,
 			);
 			path = "Braket Tours";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71EE84025E0906200AF55E0 /* location.swift in Sources */,
 				F71EE82D25E07E4600AF55E0 /* ContentView.swift in Sources */,
 				F71EE82B25E07E4600AF55E0 /* Braket_ToursApp.swift in Sources */,
 			);
